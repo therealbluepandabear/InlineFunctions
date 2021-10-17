@@ -1,8 +1,10 @@
 #include <iostream>
 
-int Square(int x) {
-    return x * x;
-}
+//int Square(int x) {
+//    return x * x;
+//}
+
+#define Square(x) x * x
 
 int main() {
     int val = 5;
